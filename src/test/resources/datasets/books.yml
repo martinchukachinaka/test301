@@ -1,0 +1,20 @@
+books:
+  - id: 20ef69b2-295b-4c6e-81fc-9831f2055895
+    isbn: 000001
+    author: Miroja Peters
+    numberOfPages: 350
+    categories:
+      - TECH
+      - ECONOMICS
+  - id: b174be96-9d75-449b-8930-12746b30e630
+    isbn: 000002
+    author: Mimi Chinaka
+    numberOfPages: 250
+    categories:
+      - TECH
+  - id: 8e8f7a57-bc0a-467d-b3cd-478c1f7020bc
+    isbn: 000003
+    author: Eri Daddy
+    numberOfPages: 25
+    categories:
+      - AGRICULTURE

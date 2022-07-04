@@ -1,0 +1,15 @@
+server:
+  port: 8181
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+  datasource:
+    username: ${dbUser}
+    password: ${dbPassword}
+    url: ${dbUrl}
+    hikari:
+      connection-timeout: 30000
+      idle-timeout: 600000
+      max-lifetime: 1800000
